@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Device Status</title>
+        <style>
+th.rotate {
+    height: 140px; 
+    white-space: nowrap;
+}
+th.rotate > div {
+    transform:
+        translate(25px, 51px)
+        rotate(315deg);
+        width: 30px;
+}
+th.rotate > div > span {
+    border-bottom: 1px solid #ccc;
+        padding 5px 10px;
+}
+td.stname {
+    border: 1px solid;
+}
+td.ok {
+    border: 1px solid;
+    background-color: green;
+}
+td.fault {
+    border: 1px;
+    background-color: red;
+}
+        </style>
+    </head>
+    <body>
+        <h1>IQ Cashel Monitoring Tool<sup></sup> </h1>
+        <table>
+            <tr>
+                <th></th>
+                <th class="rotate"><div><span>DFR directory</span></div></th>
+                <th class="rotate"><div><span>DFR record</span></div></th>
+                <th class="rotate"><div><span>TSS directory</span></div></th>
+                <th class="rotate"><div><span>TSS record</span></div></th>
+                <th class="rotate"><div><span>CSS directory</span></div></th>
+                <th class="rotate"><div><span>CSS record</span></div></th>
+                <th class="rotate"><div><span>PQ 10 min directory</span></div></th>
+                <th class="rotate"><div><span>PQ 10 min record</span></div></th>
+                <th class="rotate"><div><span>PQ free int directory</span></div></th>
+                <th class="rotate"><div><span>PQ free int record</span></div></th>
+                <th class="rotate"><div><span>Fault Location</span></div></th>
+                <th class="rotate"><div><span>RMS Envelope</span></div></th>
+                <th class="rotate"><div><span>DSI</span></div></th>
+                <th class="rotate"><div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></th>
+                <th class="rotate"><div><span>SysDiag logs</span></div></th>
+                <th class="rotate"><div><span>TSS Record logs</span></div></th>
+                <th class="rotate"><div><span>PQ logs</span></div></th>
+                <th class="rotate"><div><span>FR logs</span></div></th>
+                <th class="rotate"><div><span>Time sync log</span></div></th>
+                <th class="rotate"><div><span>Event status log</span></div></th>
+                <th class="rotate"><div><span>DSI log</span></div></th>
+                <th class="rotate"><div><span>PQ Power log</span></div></th>
+                <th class="rotate"><div><span>PQ Energy log</span></div></th>
+                <th class="rotate"><div><span>New DFR log</span></div></th>
+                <th class="rotate"><div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></th>
+                <th class="rotate"><div><span>Time Synchronisation</span></div></th>
+                <th class="rotate"><div><span>Processor load</span></div></th>
+                <th class="rotate"><div><span>Filesystem use</span></div></th>
+                <th class="rotate"><div><span>Memory use</span></div></th>
+                <th class="rotate"><div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></th>
+                <th class="rotate"><div><span>Summary</span></div></th>
+            </tr>
+            <tr>
+                <td></td><td class="stname" colspan=31 align="center"><b>Belfast Lab</b></td>
+            </tr>
+            <tr>
+                <td>10.75.19.100</td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+            </tr>
+            <tr>
+                <td>10.75.19.101</td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+            </tr>
+            <tr>
+                <td>Device 3</td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+            </tr>
+            <tr>
+                <td>Device 4</td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="fault"><a href="pq.html">&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="fault"><a href="timesync2.html">&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="fault"><a href="pq_timesync.html">&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+            </tr>
+            <tr>
+                <td>Device 5</td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="fault"><a href="FL3.html">&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="fault"><a href="FL3.html">&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+            </tr>
+            <tr>
+                <td>Device 6</td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+            </tr>
+            <tr>
+                <td>10.75.19.200</td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+            </tr>
+            <tr>
+                <td></td><td class="stname" colspan=31 align="center"><b>Summary</b></td>
+            </tr>
+            <tr>
+                <td>Summary</td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="fault"><a href="pq2.html">&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="fault"><a href="FL3_all.html">&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="fault"><a href="timesync.html">&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td class="ok"> </td>
+                <td></td>
+                <td class="ok"> </td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
